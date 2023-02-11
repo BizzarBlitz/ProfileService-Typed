@@ -11,6 +11,10 @@ This means that you have to do `local UpdateId = Update.UpdateId` instead of `lo
 
 # Type List:
 - ProfileStore
-- Profile
+- Profile (As returned by `ProfileStore:LoadProfileAsync()`)
+- ViewProfile (As returned by `ProfileStore:ViewProfileAsync()` and `ProfileVersionQuery:NextAsync()`)
 - GlobalUpdates
 - ProfileVersionQuery
+
+- ScriptSignal
+- ScriptConnection
